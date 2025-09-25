@@ -44,6 +44,8 @@ app.listen(process.env.PORT ,()=> {
     console.log(`app is listning on port ${port}`);
     
 })
+console.log("tested for git");
+
 app.get('/',(req,res) => {
     res.send("hello everyone")
 })
